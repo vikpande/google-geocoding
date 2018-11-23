@@ -69,11 +69,14 @@ Disclaimer - This API was built & tested on MacBook Pro
     - Using the monitor the api availability is currently set to test every 4 hours.  
     - A notification is sent every 4 hours on the registered postman e-mail about the performance of this API 
     - An error notification is sent as soon as the API is failing (check monitor report in the attached image). 
-    
+
+## Integration test (update 23-Nov) :
+    - Added integration test.To test follow the below steps : 
+        - On Spring tool suite, select project (Geocoding) then right click 
+        - Select "Run as" and click "maven test" to see unit & integration tests.   
  ![Postman monitor.png](https://images.zenhubusercontent.com/579884bee40e5714b16c96cc/4cc31186-47df-4565-99c9-b19474581cf6)
 
 ## To-do :
-    - Add integration test - Done (23-Nov)
     - CI with travis - in progress
     - Deploy to cloud (azure/aws)
     - Swap Tomcat with Apache-camel - in progress not suporting springboot 2.1

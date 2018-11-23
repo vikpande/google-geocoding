@@ -56,6 +56,8 @@ Note - Since the API is hard coded to generate xml output, the json, text or htm
     - Pro-actively testing and monitoring the performance of the API using Postman monitor
     - Using the monitor functionality of postman, the api availability is automatically tested every 4 hours (can be customised to the need). 
     - A notification is sent every 4 hours on your registered postman e-mail about the performance of this API and an error notification is sent as soon as the API is failing (check monitor report in the attached image). 
+    
+ ![Postman monitor.png](https://images.zenhubusercontent.com/579884bee40e5714b16c96cc/4cc31186-47df-4565-99c9-b19474581cf6)
 
 # To-do 
     - CI with travis

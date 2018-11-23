@@ -73,10 +73,10 @@ Disclaimer - This API was built & tested on MacBook Pro
  ![Postman monitor.png](https://images.zenhubusercontent.com/579884bee40e5714b16c96cc/4cc31186-47df-4565-99c9-b19474581cf6)
 
 ## To-do :
-    - CI with travis
+    - Add integration test - Done (23-Nov)
+    - CI with travis - in progress
     - Deploy to cloud (azure/aws)
-    - Swap Tomcat with Apache-camel
-    - Add integration test 
+    - Swap Tomcat with Apache-camel - in progress not suporting springboot 2.1
     - Build a client to call the API service from front end 
 
 Thank you for the opportunity!

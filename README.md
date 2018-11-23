@@ -1,4 +1,4 @@
-## Google-geocoding integration :
+## Google-geocoding integration : 
     - About : An API developed using Java springboot & maven to :
         -  query address and latitude+longitude 
         -  using Google's Geocoding API integration services.
@@ -35,7 +35,8 @@ Disclaimer - This API was built & tested on MacBook Pro
         - This generates the "jar" file. On target folder, you can "right click" and click on "refresh" to see the jar file.
         - To finally run the app and view the API, right click (on Geocoding), select "Run as" and click on "Sprint Boot App".
         - Once the app is running, you can visit test the API using the methods/tools listed under "#Testing the API". 
-    - If you wish to use the Terminal & Docker to buid and run the app. 
+        
+    - Using Terminal & Docker to buid and run the app. 
         - Pre requisite - Make sure you have docker installed and running .
         - On terminal run " mvn clean package docker:build" command at root directory ("GeoCoding"). 
             - Creates the docker  image and jar file in the target/docker location. 
@@ -59,7 +60,7 @@ Disclaimer - This API was built & tested on MacBook Pro
             - In the tool, select GET in the drop down and paste the following url
             - http://localhost:8080/getGeoCoding/amsterdam and hit send button. 
             - In the body, you can view the xml response with details of the API call 
-Note 
+## Notes : 
     - Since the API is coded (to xml output), json, text or html view is not available in postman swagger 
     - Replace Amsterdam in the url and query any city you wish.
 
@@ -71,7 +72,7 @@ Note
     
  ![Postman monitor.png](https://images.zenhubusercontent.com/579884bee40e5714b16c96cc/4cc31186-47df-4565-99c9-b19474581cf6)
 
-## To-do 
+## To-do :
     - CI with travis
     - Deploy to cloud (azure/aws)
     - Swap Tomcat with Apache-camel

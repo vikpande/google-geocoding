@@ -1,11 +1,10 @@
-# Google-geocoding API integration :
+# Google-geocoding integration :
     - About : An API developed using Java springboot & maven to query address and latitude+longitude using Google's Geocoding API integration services.
 
-# TL;DR - Watch the video recording of the functionality at the below link :
+# tl;dr - watch the functionality at the below link:
     - You tube - https://www.youtube.com/watch?v=CTH_Ei4Ilt0 
 
-# Features :
-The API has the following features:
+# Features : The API has the following features:
     - Exposes a RESTful API
     - Accepts address as a single string
     - Uses this address parameter to query Google's Geocoding API,
@@ -40,8 +39,7 @@ Disclaimer - This API was built & tested on MacBook Pro
 
 # Testing the API :
     - On Chrome, visit the following url
-        - http://localhost:8080/getGeoCoding/Amsterdam 
-Note - Replace Amsterdam in the url and query any city you wish.   
+        - http://localhost:8080/getGeoCoding/Amsterdam    
     - On Swagger, cisit the following url
         - http://localhost:8080/swagger-ui.html 
             - Pls visit - geo-coding-api-controller 
@@ -52,9 +50,9 @@ Note - Replace Amsterdam in the url and query any city you wish.
             - In the tool, select GET in the drop down and paste the following url
             - http://localhost:8080/getGeoCoding/amsterdam and hit send button. 
             - In the body, you can view the xml response with details of the API call 
-Note - Since the API is hard coded to generate xml output, the json, text or html view is not available in postman or swagger 
+Note - Since the API is hard coded to generate xml output, the json, text or html view is not available in postman or swagger . Also, replace Amsterdam in the url and query any city you wish.
 
-# Bonus - Performance scheduling & monitoring (for availibilty)
+# Bonus - Performance scheduling & monitoring : 
     - Pro-actively testing and monitoring the performance of the API using Postman monitor
     - Using the monitor functionality of postman, the api availability is automatically tested every 4 hours (can be customised to the need). 
     - A notification is sent every 4 hours on your registered postman e-mail about the performance of this API and an error notification is sent as soon as the API is failing (check monitor report in the attached image). 
